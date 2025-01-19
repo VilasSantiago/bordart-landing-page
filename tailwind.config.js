@@ -7,3 +7,10 @@ export default {
   plugins: [],
 }
 
+module.exports = {
+  content: ['./src/**/*.{astro,js,jsx,ts,tsx,html}'],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
